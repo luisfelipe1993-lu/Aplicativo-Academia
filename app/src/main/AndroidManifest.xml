@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="luisfelipe.developer.nutriup">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".Adapter.MenuActivity"
+            android:exported="false" />
+        <activity android:name=".Adapter.Main2Activity" />
+        <activity android:name=".ActivitySono.SonoActivity52" />
+        <activity android:name=".ActivitySono.SonoActivity62" />
+        <activity android:name=".ActivitySono.SonoActivity42" />
+        <activity android:name=".ActivitySono.SonoActivity6" />
+        <activity android:name=".ActivitySono.SonoActivity5" />
+        <activity android:name=".ActivitySono.SonoActivity4" />
+        <activity android:name=".ActivitySono.SonoActivity3" />
+        <activity android:name=".ActivitySono.SonoActivity2" />
+        <activity android:name=".ActivityExercicios.ExerciciosActivity5" />
+        <activity android:name=".ActivityExercicios.ExerciciosActivity4" />
+        <activity android:name=".ActivityExercicios.ExerciciosActivity3" />
+        <activity android:name=".ActivityExercicios.ExerciciosActivity2" />
+        <activity android:name=".ActivityAlimentacao.AlimentacaoActivity9" />
+        <activity android:name=".ActivityAlimentacao.AlimentacaoActivity8" />
+        <activity android:name=".ActivityAlimentacao.AlimentacaoActivity7" />
+        <activity android:name=".ActivityAlimentacao.AlimentacaoActivity6" />
+        <activity android:name=".ActivityAlimentacao.AlimentacaoActivity5" />
+        <activity android:name=".ActivityAlimentacao.AlimentacaoActivity4" />
+        <activity android:name=".ActivityAlimentacao.AlimentacaoActivity3" />
+        <activity android:name=".ActivityAlimentacao.AlimentacaoActivity2" />
+        <activity android:name=".ActivityAgua.AguaActivity4" />
+        <activity android:name=".ActivityAgua.AguaActivity3" />
+        <activity android:name=".ActivityAgua.AguaActivity2" />
+        <activity android:name=".ActivityExercicios.ExerciciosActivity" />
+        <activity android:name=".ActivitySono.SonoActivity" />
+        <activity android:name=".ActivityAlimentacao.AlimentacaoActivity" />
+        <activity android:name=".ActivityAgua.AguaActivity" />
+        <activity
+            android:name=".ActivityAgua.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_agua"
+            android:icon="@drawable/water"
+            android:title="Água" />
+
+        <item
+            android:id="@+id/nav_alimentacao"
+            android:icon="@drawable/food"
+            android:title="Alimentação" />
+
+
+        <item
+            android:id="@+id/nav_exercicios"
+            android:icon="@drawable/sport"
+            android:title="Exercícios" />
+
+        <item
+            android:id="@+id/nav_sono"
+            android:icon="@drawable/sleep"
+            android:title="Sono" />
+
+
+    </group>
+
+</menu>
+
